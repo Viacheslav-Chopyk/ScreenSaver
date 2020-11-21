@@ -5,8 +5,8 @@ body {
   
 #screenSaver {
     position: absolute; 
-    top: auto; 
-    left: auto;
+    top: 0; 
+    left: 0;
     transition: 10s;
 }
 
