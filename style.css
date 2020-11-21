@@ -1,0 +1,12 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+  
+#screenSaver {
+    position: absolute; 
+    top: auto; 
+    left: auto;
+    transition: 10s;
+}
+
