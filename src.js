@@ -14,8 +14,8 @@ function getRandomImage() {
     let top = Math.floor(Math.random() * 100);
 
     image.setAttribute('src', images[number]);
-    image.style.top = top;
-    image.style.left = left;
+    image.style.top = top + 'px';
+    image.style.left = left + 'px';
 
 }
 var activityTimeout;
