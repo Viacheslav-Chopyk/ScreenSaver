@@ -1,5 +1,5 @@
 
-let images = [
+const images = [
     'https://images.pexels.com/photos/1275929/pexels-photo-1275929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=9060',
     'https://images.pexels.com/photos/1451074/pexels-photo-1451074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=450&w=560',
     'https://images.pexels.com/photos/1460880/pexels-photo-1460880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=200',
@@ -18,9 +18,9 @@ function getRandomImage() {
     image.style.left = left + 'px';
 
 }
-var activityTimeout;
-var imageTimeout;
-var image = document.getElementById("screenSaver");
+const activityTimeout;
+const imageTimeout;
+let image = document.getElementById("screenSaver");
 function resetTime() {
     if (activityTimeout) {
         clearTimeout(activityTimeout);
